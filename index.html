@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="pt-BR">
+<head><meta charset="utf-8"><title>Jornada do Chamado</title><link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Cardo&display=swap" rel="stylesheet"></head>
+<style>
+  canvas#avatarView {
+    position: absolute;
+    left: calc(50% + 350px);
+    top: 120px;
+    background: transparent;
+    border: 2px solid #c9a64e;
+    image-rendering: pixelated;
+    pointer-events: none;
+  }
+</style>
+<body>
+  <div id="game-container"></div>
+  <canvas id="avatarView" width="128" height="128"></canvas>
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
